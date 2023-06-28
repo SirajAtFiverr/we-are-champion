@@ -46,6 +46,7 @@ body{
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .from-field, .to-field{
@@ -55,6 +56,7 @@ body{
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
+    color: white;
 }
 
 .from-field{
@@ -101,4 +103,5 @@ body{
 
 .from .likes{
     float: right;
+    cursor: pointer;
 }
