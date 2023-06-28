@@ -6,8 +6,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
     <title>We are champion</title>
 </head>
@@ -21,7 +21,7 @@
         </div>
 
         <div id="section-2">
-            <input type="text" placeholder="Write your endorsement here" class="endorsement-text-field">
+            <textarea class="endorsement-text-field" placeholder="Write your endorsement here"></textarea>
             <input type="text" placeholder="From" class="from-field">
             <input type="text" placeholder="To" class="to-field">
             <button class="publish-button">Publish</button>
@@ -31,7 +31,7 @@
             <h4>- Endorsements -</h4>
             <ul class="endorsement-list">
 
-               <li>Hi Bob! Your React Router course is so good.
+               <!-- <li>Hi Bob! Your React Router course is so good.
                    The students are going to LOVE IT. I’m so excited
                    for the launch :) 🔥 Per
                 </li>
@@ -41,11 +41,21 @@
                     I know you’ve been working hard on it for several months now. 👏👏👏 Really
                     good work 🙌
                     From Sindre
-                </li>
+                </li> -->
 
                 <li>
-                    Leanne! Thank you so much for helping me with the March accounting.
-                    Saved so much time because of you! 💜 Frode
+                    <div class="to">To Leanne</div>
+                    
+                    <div class="endorsement-text">
+                        Leanne! Thank you so much for helping me with the March accounting.
+                        Saved so much time because of you! 💜 Frode
+                    </div>
+
+                    <div class="from">
+                        <span>From Sindre</span>
+                        <span class="likes">❤️ 7</span>
+                    </div>
+                    
                 </li>
 
             </ul>

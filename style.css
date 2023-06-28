@@ -12,9 +12,9 @@ body{
 }
 
 #app{
-    /* min-width: 320px; */
     width: 320px;
-    margin: 10px auto;
+    margin: auto;
+    padding: 30px 20px;
 }
 
 #section-1 img{
@@ -26,27 +26,54 @@ body{
 }
 
 #section-2{
-    margin: 10px 0;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+}
+
+#section-3 h4{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .endorsement-text-field{
     height: 100px;
     width: 100%;
+    resize: none;
+    padding: 10px 15px;
+    background-color: #444059;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.from-field, .to-field{
+    width: 48%;
+    padding: 10px 15px;
+    background-color: #444059;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .from-field{
-    width: 50%;
+    margin-right: 5px;
 }
 
 .to-field{
-    width: 50%;
+    margin-left: 5px;
 }
+
 
 .publish-button{
     width: 100%;
+    background-color: #28A9F1;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .endorsement-list{
@@ -55,10 +82,23 @@ body{
 
 .endorsement-list li{
     width: 100%;
-    /* height: 100px; */
     background-color: white;
     color: black;
-    text-align: center;
-    padding: 10px;
-    margin: 5px 0;
+    padding: 15px;
+    margin: 5px auto;
+    text-align: justify;
+}
+
+.to{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.from{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.from .likes{
+    float: right;
 }
