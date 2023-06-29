@@ -104,4 +104,5 @@ body{
 .from .likes{
     float: right;
     cursor: pointer;
+    user-select: none;
 }
